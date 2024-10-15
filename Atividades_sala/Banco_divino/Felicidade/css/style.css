@@ -1,0 +1,11 @@
+*{
+    color: aliceblue;
+}
+
+.inline{
+    display: flex;
+}
+
+.finalLine{
+    justify-content: space-between !important;
+}

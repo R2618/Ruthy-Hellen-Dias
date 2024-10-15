@@ -1,0 +1,13 @@
+.fundoIndex{
+    background-image: url("../img/Cre.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+}
+
+.fundoHome{
+    background-image: url("../img/Cr.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+}
