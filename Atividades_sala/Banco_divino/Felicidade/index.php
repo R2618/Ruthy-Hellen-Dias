@@ -24,8 +24,8 @@
         </form>
     </div>
     <div class="login">
-        <p class="email">O Email é "sim@nao"</p>
-        <p class="senha">A Senha é "1234"</p>
+        <p class="email">O Email é "vanessa@cool.com"</p>
+        <p class="senha">A Senha é "4321"</p>
     </div>
     <?php
     session_start();
