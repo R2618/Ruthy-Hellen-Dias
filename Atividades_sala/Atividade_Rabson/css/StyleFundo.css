@@ -1,0 +1,6 @@
+.fundo{
+   background-image: url("../img/gris_legal.png");
+   background-repeat: no-repeat;
+   background-position: absolute;
+   background-size: cover;
+}

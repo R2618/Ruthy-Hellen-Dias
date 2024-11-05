@@ -1,0 +1,43 @@
+.caixaBranca{   
+    position: absolute;
+    top: 72%;
+    left: 14.5%;
+}
+.caixaDeTexto{
+    position: relative;
+    border-radius: 15px;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 330px;
+    font-size: 2em;
+    margin-bottom: 25px;
+    right: 10px;
+    background-color: #f6e8de;
+    border-color: #a97981;
+    color: #a97981;
+}
+
+.caixaDeTexto::placeholder{
+    color: #a33f43;
+}
+.botao{
+    position: relative;
+    border-radius: 15px;
+    border-style: hidden;
+    font-size: 2em;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #a33f43;
+    left: 62px;
+}
+
+.botao:hover{
+    background-color: #a97981;
+}
+
+.botao:active{
+    top: 2px;
+    background-color: #a97981;
+}

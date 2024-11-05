@@ -15,5 +15,5 @@ VALUES
 $resultado = $conn->query($sql);
 
 $conn->close();
-header('location: index.php.php', true, 301);
+header('location: ../paginas/paginaLogin.php', true, 301);
 exit();
