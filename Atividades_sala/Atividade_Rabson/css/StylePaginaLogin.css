@@ -1,0 +1,137 @@
+.posicao{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.text{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1e0508;
+}
+
+.myTable>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+    background-color: #1e0508;
+}
+
+.ID{
+    border-top-left-radius: 15px;
+}
+
+.acoes{
+    border-top-right-radius: 15px;
+}
+
+.myTable {
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    border-color: var(--bs-table-border-color);
+}
+
+.botaoExcluir{
+    border-style: hidden;
+    background-color: #ff8b11;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.botaoExcluir:hover{
+    background-color: #e97901;
+}
+
+.botaoVisualizar{
+    border-style: hidden;
+    background-color: #7bc419;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.botaoVisualizar:hover{
+    background-color: #65a610;
+}
+
+.botaoCartao{
+    border-style: hidden;
+    background-color: #d8b710;
+    color: aliceblue;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.botaoCartao:hover{
+    background-color: #b69a0e;
+}
+
+.modal-bonito{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: #1e0508;
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+
+.form-bonito{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: aliceblue;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #1e0508;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-bonito::placeholder{
+    color: rgb(176, 228, 237);
+}
+
+.col-form-select{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(176, 228, 237);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #1e0508;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    cursor: pointer; 
+}
+
+.col-form-select:focus{
+    outline: none;
+}
+
+.col-form-option{
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    border-color: white;
+}

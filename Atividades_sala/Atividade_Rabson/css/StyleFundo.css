@@ -4,3 +4,9 @@
    background-position: absolute;
    background-size: cover;
 }
+.fundi{
+   background-image: url("../img/fundi_bonito.jpg");
+   background-repeat: no-repeat;
+   background-position: absolute;
+   background-size: cover;
+}
